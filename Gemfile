@@ -12,5 +12,11 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'fabrication'
+  gem 'launchy'
+  gem 'minitest-rails'
   gem 'ruby-debug19', require: 'ruby-debug'
+  gem 'spork'
 end
