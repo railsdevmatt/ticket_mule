@@ -18,5 +18,6 @@ group :development, :test do
   gem 'launchy'
   gem 'minitest-rails'
   gem 'ruby-debug19', require: 'ruby-debug'
+  gem 'ruby-debug-pry', require: 'ruby-debug/pry'
   gem 'spork'
 end
