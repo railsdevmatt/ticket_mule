@@ -49,14 +49,14 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path << Dir[File.join(RAILS_ROOT, 'my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 
-  ActionMailer::Base.smtp_settings = {
-  :address => 'smtp.gmail.com',
-  :port => 587,
-  :domain => 'umaniweb.com',
-  :authentication => :plain,
-  :user_name => 'hotiby@gmail.com',
-  :password => '12apples'
-  }
+  # ActionMailer Config
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :address => "smtp.mycompany.com",
+  #   :authentication => :login,
+  #   :user_name => "account.name@mycompany.com",
+  #   :password => "the_password"
+  # }
 
   # Define subdirectory root
   # config.action_controller.relative_url_root = '/myapp'
