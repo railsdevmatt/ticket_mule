@@ -53,7 +53,7 @@ class AuditSweeper < ActionController::Caching::Sweeper
               user_list.push(u.email)
             end
           end
-          Notifier.deliver_ticket_alert(ticket,user_list,text)
+          # Notifier.deliver_ticket_alert(ticket,user_list,text)
         end
       end
     end
