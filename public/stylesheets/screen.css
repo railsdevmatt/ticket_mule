@@ -31,7 +31,7 @@ h3 { font-size: 13px; line-height: 16px; margin: 0 0 5px 0; color: #4d88cf; }
 #main, #inner-header { width: 92%; min-width: 860px; margin: 0 auto; }
 #main { padding: 15px 0 0 0; margin-bottom: 20px; overflow: hidden; }
 #inner-header { position: relative; height: 80px; }
-#inner-header h1 { padding: 24px 0 1px 0; color: #999; width: 0; font-family: "Trebuchet MS",sans-serif; text-shadow: 0 3px 0 #111; }
+#inner-header h1 { padding: 24px 0 1px 0; color: #999; width: 212px; font-family: "Trebuchet MS",sans-serif; text-shadow: 0 3px 0 #111; }
 #inner-header h1:hover { color: #ccc; cursor: default; }
 
 #status { position: absolute; top: 6px; right: 0; color: #bbb; font-size: 12px; background: #2d2d2d; padding: 2px 7px 4px 7px; border: 1px solid #707070; border-width: 0 1px 1px 1px; -moz-border-radius-bottomleft: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-bottom-left-radius: 6px; -webkit-border-bottom-right-radius: 6px; }
